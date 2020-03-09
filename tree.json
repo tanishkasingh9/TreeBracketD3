@@ -1,0 +1,1528 @@
+{"2014":[{
+
+"id": "winner",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "finalwinner1",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "semiwinner1",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "quadwinner1",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "fourthwinner1",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "thirdwinnerwo",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "secowinner1a",
+"name":"Stanislas Wawrinka",
+"children":[{
+
+"id": "firstwinner1",
+"name":"Stanislas Wawrinka",
+"children":[]
+
+},{
+
+"id": "firstlooser1",
+"name":"Andrey Golubev",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser1a",
+"name":"Alejandro Falla",
+"children":[{
+
+"id": "firstwinner2",
+"name":"Alejandro Falla",
+"children":[]
+
+},{
+
+"id": "firstlooser2",
+"name":"Mikhail Kukushkin",
+"children":[]
+
+}]
+
+}]},{
+
+"id": "thirdlooserwo",
+"name":"Vasek Pospisil",
+"children":[{
+
+"id": "secowinner1b",
+"name":"Vasek Pospisil",
+"children":[{
+
+"id": "firstwinner3",
+"name":"Vasek Pospisil",
+"children":[]
+
+},{
+
+"id": "firstlooser3",
+"name":"Samuel Groth",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser1b",
+"name":"Matthew Ebden",
+"children":[{
+
+"id": "firstwinner4",
+"name":"Matthew Ebden",
+"children":[]
+
+},{
+
+"id": "firstlooser4",
+"name":"Nicolas Mahut",
+"children":[]
+
+}]
+
+}
+
+},{
+
+"id": "fourthlooser1",
+"name":"Tommy Robredo",
+"children":[{
+
+"id": "thirdwinner1",
+"name":"Tommy Robredo",
+"children":[{
+
+"id": "secowinner1",
+"name":"Tommy Robredo",
+"children":[{
+
+"id": "firstwinner5",
+"name":"Tommy Robredo",
+"children":[]
+
+},{
+
+"id": "firstlooser5",
+"name":"Lukas Rosol",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser1",
+"name":"Julien Benneteau",
+"children":[{
+
+"id": "firstwinner6",
+"name":"Julien Benneteau",
+"children":[]
+
+},{
+
+"id": "firstlooser6",
+"name":"Pablo Carreno-Busta",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser1",
+"name":"Richard Gasquet",
+"children":[{
+
+"id": "secowinner2",
+"name":"Richard Gasquet",
+"children":[{
+
+"id": "firstwinner7",
+"name":"Richard Gasquet",
+"children":[]
+
+},{
+
+"id": "firstlooser7",
+"name":"David Guez",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser2",
+"name":"Nikolay Davydenko",
+"children":[{
+
+"id": "firstwinner8",
+"name":"Nikolay Davydenko",
+"children":[]
+
+},{
+
+"id": "firstlooser8",
+"name":"Lukasz Kubot",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "quadlooser1",
+"name":"Novak Djokovic",
+"children":[{
+
+"id": "fourthwinner2",
+"name":"Novak Djokovic",
+"children":[{
+
+"id": "thirdwinner2",
+"name":"Novak Djokovic",
+"children":[{
+
+"id": "secowinner3",
+"name":"Novak Djokovic",
+"children":[{
+
+"id": "firstwinner9",
+"name":"Novak Djokovic",
+"children":[]
+
+},{
+
+"id": "firstlooser9",
+"name":"Lukas Lacko",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser3",
+"name":"Leonardo Mayer",
+"children":[{
+
+"id": "firstwinner10",
+"name":"Leonardo Mayer",
+"children":[]
+
+},{
+
+"id": "firstlooser10",
+"name":"Albert Montanes",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser2",
+"name":"Denis Istomin",
+"children":[{
+
+"id": "secowinner4",
+"name":"Denis Istomin",
+"children":[{
+
+"id": "firstwinner11",
+"name":"Denis Istomin",
+"children":[]
+
+},{
+
+"id": "firstlooser11",
+"name":"Marcos Baghdatis",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser4",
+"name":"Dmitry Tursunov",
+"children":[{
+
+"id": "firstwinner12",
+"name":"Dmitry Tursunov",
+"children":[]
+
+},{
+
+"id": "firstlooser12",
+"name":"Michael Russell",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser2",
+"name":"Fabio Fognini",
+"children":[{
+
+"id": "thirdwinner3",
+"name":"Fabio Fognini",
+"children":[{
+
+"id": "secowinner5",
+"name":"Fabio Fognini",
+"children":[{
+
+"id": "firstwinner13",
+"name":"Fabio Fognini",
+"children":[]
+
+},{
+
+"id": "firstlooser13",
+"name":"Alex Jr. Bogomolov",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser5",
+"name":"Jarkko Nieminen",
+"children":[{
+
+"id": "firstwinner14",
+"name":"Jarkko Nieminen",
+"children":[]
+
+},{
+
+"id": "firstlooser14",
+"name":"Dudi Sela",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser3",
+"name":"Sam Querrey",
+"children":[{
+
+"id": "secowinner6",
+"name":"Sam Querrey",
+"children":[{
+
+"id": "firstwinner15",
+"name":"Sam Querrey",
+"children":[]
+
+},{
+
+"id": "firstlooser15",
+"name":"Santiago Giraldo",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser6",
+"name":"Ernests Gulbis",
+"children":[{
+
+"id": "firstwinner16",
+"name":"Ernests Gulbis",
+"children":[]
+
+},{
+
+"id": "firstlooser16",
+"name":"Juan Monaco",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "semilooser1",
+"name":"Tomas Berdych",
+"children":[{
+
+"id": "quadwinner2",
+"name":"Tomas Berdych",
+"children":[{
+
+"id": "fourthwinner3",
+"name":"Tomas Berdych",
+"children":[{
+
+"id": "thirdwinner4",
+"name":"Tomas Berdych",
+"children":[{
+
+"id": "secowinner7",
+"name":"Tomas Berdych",
+"children":[{
+
+"id": "firstwinner17",
+"name":"Tomas Berdych",
+"children":[]
+
+},{
+
+"id": "firstlooser17",
+"name":"Aleksandr Nedovesov",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser7",
+"name":"Kenny de Schepper",
+"children":[{
+
+"id": "firstwinner18",
+"name":"Kenny de Schepper",
+"children":[]
+
+},{
+
+"id": "firstlooser18",
+"name":"Di Wu",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser4",
+"name":"Damir Dzumhur",
+"children":[{
+
+"id": "secowinner8",
+"name":"Damir Dzumhur",
+"children":[{
+
+"id": "firstwinner19",
+"name":"Damir Dzumhur",
+"children":[]
+
+},{
+
+"id": "firstlooser19",
+"name":"Jan Hajek",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser8",
+"name":"Ivan Dodig",
+"children":[{
+
+"id": "firstwinner20",
+"name":"Ivan Dodig",
+"children":[]
+
+},{
+
+"id": "firstlooser20",
+"name":"Ivo Karlovic",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser3",
+"name":"Kevin Anderson",
+"children":[{
+
+"id": "thirdwinner5",
+"name":"Kevin Anderson",
+"children":[{
+
+"id": "secowinner9",
+"name":"Kevin Anderson",
+"children":[{
+
+"id": "firstwinner21",
+"name":"Kevin Anderson",
+"children":[]
+
+},{
+
+"id": "firstlooser21",
+"name":"Jiri Vesely",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser9",
+"name":"Dominic Thiem",
+"children":[{
+
+"id": "firstwinner22",
+"name":"Dominic Thiem",
+"children":[]
+
+},{
+
+"id": "firstlooser22",
+"name":"Joao Sousa",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser5"
+"name":"Edouard Roger-Vasselin"
+"children":[{
+
+"id": "secowinner10",
+"name":"Edouard Roger-Vasselin",
+"children":[{
+
+"id": "firstwinner23",
+"name":"Edouard Roger-Vasselin",
+"children":[]
+
+},{
+
+"id": "firstlooser23",
+"name":"Carlos Berlocq",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser10",
+"name":"Guillermo Garcia-Lopez",
+"children":[{
+
+"id": "firstwinner24",
+"name":"Guillermo Garcia-Lopez",
+"children":[]
+
+},{
+
+"id": "firstlooser24",
+"name":"Tommy Haas",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "quadlooser2",
+"name":"David Ferrer",
+"children":[{
+
+"id": "fourthwinner4",
+"name":"David Ferrer",
+"children":[{
+
+"id": "thirdwinner6",
+"name":"David Ferrer",
+"children":[{
+
+"id": "secowinner11",
+"name":"David Ferrer",
+"children":[{
+
+"id": "firstwinner25",
+"name":"David Ferrer",
+"children":[]
+
+},{
+
+"id": "firstlooser25",
+"name":"Alejandro Gonzalez",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser11",
+"name":"Adrian Mannarino",
+"children":[{
+
+"id": "firstwinner26",
+"name":"Adrian Mannarino",
+"children":[]
+
+},{
+
+"id": "firstlooser26",
+"name":"Steve Johnson",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser6",
+"name":"Jeremy Chardy",
+"children":[{
+
+"id": "secowinner12",
+"name":"Jeremy Chardy",
+"children":[{
+
+"id": "firstwinner27",
+"name":"Jeremy Chardy",
+"children":[]
+
+},{
+
+"id": "firstlooser27",
+"name":"Jesse Huta Galung",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser12",
+"name":"Alexandr Dolgopolov",
+"children":[{
+
+"id": "firstwinner28",
+"name":"Alexandr Dolgopolov",
+"children":[]
+
+},{
+
+"id": "firstlooser28",
+"name":"Richard Berankis",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser4",
+"name":"Florian Mayer",
+"children":[{
+
+"id": "thirdwinner7",
+"name":"Florian Mayer",
+"children":[{
+
+"id": "secowinner13",
+"name":"Florian Mayer",
+"children":[{
+
+"id": "firstwinner29",
+"name":"Florian Mayer",
+"children":[]
+
+},{
+
+"id": "firstlooser29",
+"name":"Denis Kudla",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser12",
+"name":"Mikhail Youzhny",
+"children":[{
+
+"id": "firstwinner30",
+"name":"Mikhail Youzhny",
+"children":[]
+
+},{
+
+"id": "firstlooser30",
+"name":"Jan-Lennard Struff",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser7",
+"name":"Jerzy Janowicz",
+"children":[{
+
+"id": "secowinner13",
+"name":"Jerzy Janowicz",
+"children":[{
+
+"id": "firstwinner31",
+"name":"Jerzy Janowicz",
+"children":[]
+
+},{
+
+"id": "firstlooser31",
+"name":"Jordan Thompson",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser13",
+"name":"Pablo Andujar",
+"children":[{
+
+"id": "firstwinner32",
+"name":"Pablo Andujar",
+"children":[]
+
+},{
+
+"id": "firstlooser32",
+"name":"Albert Ramos",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "finallooser1",
+"name":"Rafael Nadal",
+"children":[
+{
+
+"id": "semiwinner2",
+"name":"Rafael Nadal",
+"children":[{
+
+"id": "quadwinner3",
+"name":"Rafael Nadal",
+"children":[{
+
+"id": "fourthwinner5",
+"name":"Rafael Nadal",
+"children":[{
+
+"id": "thirdwinner8",
+"name":"Rafael Nadal",
+"children":[{
+
+"id": "secowinner14",
+"name":"Rafael Nadal",
+"children":[{
+
+"id": "firstwinner33",
+"name":"Rafael Nadal",
+"children":[]
+
+},{
+
+"id": "firstlooser33",
+"name":"Bernard Tomic",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser14",
+"name":"Thanasi Kokkinakis",
+"children":[{
+
+"id": "firstwinner34",
+"name":"Thanasi Kokkinakis",
+"children":[]
+
+},{
+
+"id": "firstlooser34",
+"name":"Igor Sijsling",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser8",
+"name":"Gael Monfils",
+"children":[{
+
+"id": "secowinner15",
+"name":"Gael Monfils",
+"children":[{
+
+"id": "firstwinner35",
+"name":"Gael Monfils",
+"children":[]
+
+},{
+
+"id": "firstlooser35",
+"name":"Ryan Harrison",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser15",
+"name":"Jack Sock",
+"children":[{
+
+"id": "firstwinner36",
+"name":"Jack Sock",
+"children":[]
+
+},{
+
+"id": "firstlooser36",
+"name":"Tobias Kamke",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser5"
+"name":"Kei Nishikori"
+"children":[{
+
+"id": "thirdwinner9"
+"name":"Kei Nishikori"
+"children":[{
+
+"id": "secowinner16",
+"name":"Kei Nishikori",
+"children":[{
+
+"id": "firstwinner37",
+"name":"Kei Nishikori",
+"children":[]
+
+},{
+
+"id": "firstlooser37",
+"name":"Marinko Matosevic",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser16",
+"name":"Dusan Lajovic",
+"children":[{
+
+"id": "firstwinner38",
+"name":"Dusan Lajovic",
+"children":[]
+
+},{
+
+"id": "firstlooser38",
+"name":"Lucas Pouille",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser9"
+"name":"Donald Young"
+"children":[{
+
+"id": "secowinner17",
+"name":"Donald Young",
+"children":[{
+
+"id": "firstwinner39",
+"name":"Donald Young",
+"children":[]
+
+},{
+
+"id": "firstlooser39",
+"name":"Robin Haase",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser17",
+"name":"Andreas Seppi",
+"children":[{
+
+"id": "firstwinner40",
+"name":"Andreas Seppi",
+"children":[]
+
+},{
+
+"id": "firstlooser40",
+"name":"Lleyton Hewitt",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "quadlooser3"
+"name":"Grigor Dimitrov"
+"children":[{
+
+"id": "fourthwinner6"
+"name":"Grigor Dimitrov"
+"children":[{
+
+"id": "thirdwinner10"
+"name":"Grigor Dimitrov"
+"children":[{
+
+"id": "secowinner18",
+"name":"Grigor Dimitrov",
+"children":[{
+
+"id": "firstwinner40a",
+"name":"Grigor Dimitrov",
+"children":[]
+
+},{
+
+"id": "firstlooser40a",
+"name":"Bradley Klahn",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser18",
+"name":"Yen-Hsun Lu",
+"children":[{
+
+"id": "firstwinner41",
+"name":"Yen-Hsun Lu",
+"children":[]
+
+},{
+
+"id": "firstlooser41",
+"name":"Jimmy Wang",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser10"
+"name":"Milos Raonic"
+"children":[{
+
+"id": "secowinner19",
+"name":"Milos Raonic",
+"children":[{
+
+"id": "firstwinner42",
+"name":"Milos Raonic",
+"children":[]
+
+},{
+
+"id": "firstlooser42",
+"name":"Daniel Gimeno-Traver",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser19",
+"name":"Victor Hanescu",
+"children":[{
+
+"id": "firstwinner43",
+"name":"Victor Hanescu",
+"children":[]
+
+},{
+
+"id": "firstlooser43",
+"name":"Peter Gojowczyk",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser6"
+"name":"Roberto Bautista-Agut"
+"children":[{
+
+"id": "thirdwinner11"
+"name":"Roberto Bautista-Agut"
+"children":[{
+
+"id": "secowinner20",
+"name":"Roberto Bautista-Agut",
+"children":[{
+
+"id": "firstwinner44",
+"name":"Roberto Bautista-Agut",
+"children":[]
+
+},{
+
+"id": "firstlooser44",
+"name":"Tim Smyczek",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser20",
+"name":"Juan Martin Del Potro",
+"children":[{
+
+"id": "firstwinner45",
+"name":"Juan Martin Del Potro",
+"children":[]
+
+},{
+
+"id": "firstlooser45",
+"name":"Rhyne Williams",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser11",
+"name":"Benoit Paire",
+"children":[{
+
+"id": "secowinner21",
+"name":"Benoit Paire",
+"children":[{
+
+"id": "firstwinner46",
+"name":"Benoit Paire",
+"children":[]
+
+},{
+
+"id": "firstlooser46",
+"name":"Frank Dancevic",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser21",
+"name":"Nick Kyrgios",
+"children":[{
+
+"id": "firstwinner47",
+"name":"Nick Kyrgios",
+"children":[]
+
+},{
+
+"id": "firstlooser47",
+"name":"Benjamin Becker",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "semilooser2",
+"name":"Roger Federer",
+"children":[{
+
+"id": "quadwinner4",
+"name":"Roger Federer",
+"children":[{
+
+"id": "fourthwinner7",
+"name":"Roger Federer",
+"children":[{
+
+"id": "thirdwinner12",
+"name":"Roger Federer",
+"children":[{
+
+"id": "secowinner22",
+"name":"Roger Federer",
+"children":[{
+
+"id": "firstwinner48",
+"name":"Roger Federer",
+"children":[]
+
+},{
+
+"id": "firstlooser48",
+"name":"James Duckworth",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser22",
+"name":"Blaz Kavcic",
+"children":[{
+
+"id": "firstwinner49",
+"name":"Blaz Kavcic",
+"children":[]
+
+},{
+
+"id": "firstlooser49",
+"name":"Radek Stepanek",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser12",
+"name":"Teimuraz Gabashvili",
+"children":[{
+
+"id": "secowinner23",
+"name":"Teimuraz Gabashvili",
+"children":[{
+
+"id": "firstwinner50",
+"name":"Teimuraz Gabashvili",
+"children":[]
+
+},{
+
+"id": "firstlooser50",
+"name":"Sergiy Stakhovsky",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser23",
+"name":"Fernando Verdasco",
+"children":[{
+
+"id": "firstwinner51",
+"name":"Fernando Verdasco",
+"children":[]
+
+},{
+
+"id": "firstlooser51",
+"name":"Ze Zhang",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser7",
+"name":"Jo-Wilfried Tsonga",
+"children":[{
+
+"id": "thirdwinner13",
+"name":"Jo-Wilfried Tsonga",
+"children":[{
+
+"id": "secowinner24",
+"name":"Jo-Wilfried Tsonga",
+"children":[{
+
+"id": "firstwinner52",
+"name":"Jo-Wilfried Tsonga",
+"children":[]
+
+},{
+
+"id": "firstlooser52",
+"name":"Filippo Volandri",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser24",
+"name":"Thomaz Bellucci",
+"children":[{
+
+"id": "firstwinner53",
+"name":"Thomaz Bellucci",
+"children":[]
+
+},{
+
+"id": "firstlooser53",
+"name":"Julian Reister",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser13",
+"name":"Gilles Simon",
+"children":[{
+
+"id": "secowinner25",
+"name":"Gilles Simon",
+"children":[{
+
+"id": "firstwinner54",
+"name":"Gilles Simon",
+"children":[]
+
+},{
+
+"id": "firstlooser54",
+"name":"Daniel Brands",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser25",
+"name":"Marin Cilic",
+"children":[{
+
+"id": "firstwinner55",
+"name":"Marin Cilic",
+"children":[]
+
+},{
+
+"id": "firstlooser55",
+"name":"Marcel Granollers",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "quadlooser4",
+"name":"Andy Murray",
+"children":[{
+
+"id": "fourthwinner8",
+"name":"Andy Murray",
+"children":[{
+
+"id": "thirdwinner14",
+"name":"Andy Murray",
+"children":[{
+
+"id": "secowinner26",
+"name":"Andy Murray",
+"children":[{
+
+"id": "firstwinner56",
+"name":"Andy Murray",
+"children":[]
+
+},{
+
+"id": "firstlooser56",
+"name":"Go Soeda",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser26",
+"name":"Vincent Millot",
+"children":[{
+
+"id": "firstwinner57",
+"name":"Vincent Millot",
+"children":[]
+
+},{
+
+"id": "firstlooser57",
+"name":"Wayne Odesnik",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser14"
+"name":"Feliciano Lopez"
+"children":[{
+
+"id": "secowinner27",
+"name":"Feliciano Lopez",
+"children":[{
+
+"id": "firstwinner58",
+"name":"Feliciano Lopez",
+"children":[]
+
+},{
+
+"id": "firstlooser58",
+"name":"Somdev Devvarman",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser27",
+"name":"Michael Berrer",
+"children":[{
+
+"id": "firstwinner59",
+"name":"Michael Berrer",
+"children":[]
+
+},{
+
+"id": "firstlooser59",
+"name":"Michael Llodra",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+},{
+
+"id": "fourthlooser8"
+"name":"Stephane Robert"
+"children":[{
+
+"id": "thirdwinner15"
+"name":"Stephane Robert"
+"children":[{
+
+"id": "secowinner28",
+"name":"Stephane Robert",
+"children":[{
+
+"id": "firstwinner60",
+"name":"Stephane Robert",
+"children":[]
+
+},{
+
+"id": "firstlooser60",
+"name":"Aljaz Bedene",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser28",
+"name":"Michal Przysiezny",
+"children":[{
+
+"id": "firstwinner61",
+"name":"Michal Przysiezny",
+"children":[]
+
+},{
+
+"id": "firstlooser61",
+"name":"Horacio Zeballos",
+"children":[]
+
+}]
+
+}]
+
+},{
+
+"id": "thirdlooser16"
+"name":"Martin Klizan"
+"children":[{
+
+"id": "secowinner29",
+"name":"Martin Klizan",
+"children":[{
+
+"id": "firstwinner62",
+"name":"Martin Klizan",
+"children":[]
+
+},{
+
+"id": "firstlooser62",
+"name":"John Isner",
+"children":[]
+
+}]
+
+},{
+
+"id": "secolooser29",
+"name":"Blaz Rola",
+"children":[{
+
+"id": "firstwinner63",
+"name":"Blaz Rola",
+"children":[]
+
+},{
+
+"id": "firstlooser63",
+"name":"Federico Delbonis",
+"children":[]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]
+
+}]}
