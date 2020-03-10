@@ -98,7 +98,7 @@
 
 }]
 
-}
+}]
 
 },{
 
@@ -526,8 +526,8 @@
 
 },{
 
-"id": "thirdlooser5"
-"name":"Edouard Roger-Vasselin"
+"id": "thirdlooser5",
+"name":"Edouard Roger-Vasselin",
 "children":[{
 
 "id": "secowinner10",
@@ -865,12 +865,12 @@
 
 },{
 
-"id": "fourthlooser5"
-"name":"Kei Nishikori"
+"id": "fourthlooser5",
+"name":"Kei Nishikori",
 "children":[{
 
-"id": "thirdwinner9"
-"name":"Kei Nishikori"
+"id": "thirdwinner9",
+"name":"Kei Nishikori",
 "children":[{
 
 "id": "secowinner16",
@@ -911,8 +911,8 @@
 
 },{
 
-"id": "thirdlooser9"
-"name":"Donald Young"
+"id": "thirdlooser9",
+"name":"Donald Young",
 "children":[{
 
 "id": "secowinner17",
@@ -957,16 +957,16 @@
 
 },{
 
-"id": "quadlooser3"
-"name":"Grigor Dimitrov"
+"id": "quadlooser3",
+"name":"Grigor Dimitrov",
 "children":[{
 
-"id": "fourthwinner6"
-"name":"Grigor Dimitrov"
+"id": "fourthwinner6",
+"name":"Grigor Dimitrov",
 "children":[{
 
-"id": "thirdwinner10"
-"name":"Grigor Dimitrov"
+"id": "thirdwinner10",
+"name":"Grigor Dimitrov",
 "children":[{
 
 "id": "secowinner18",
@@ -1007,8 +1007,8 @@
 
 },{
 
-"id": "thirdlooser10"
-"name":"Milos Raonic"
+"id": "thirdlooser10",
+"name":"Milos Raonic",
 "children":[{
 
 "id": "secowinner19",
@@ -1051,12 +1051,12 @@
 
 },{
 
-"id": "fourthlooser6"
-"name":"Roberto Bautista-Agut"
+"id": "fourthlooser6",
+"name":"Roberto Bautista-Agut",
 "children":[{
 
-"id": "thirdwinner11"
-"name":"Roberto Bautista-Agut"
+"id": "thirdwinner11",
+"name":"Roberto Bautista-Agut",
 "children":[{
 
 "id": "secowinner20",
@@ -1385,8 +1385,8 @@
 
 },{
 
-"id": "thirdlooser14"
-"name":"Feliciano Lopez"
+"id": "thirdlooser14",
+"name":"Feliciano Lopez",
 "children":[{
 
 "id": "secowinner27",
@@ -1429,12 +1429,12 @@
 
 },{
 
-"id": "fourthlooser8"
-"name":"Stephane Robert"
+"id": "fourthlooser8",
+"name":"Stephane Robert",
 "children":[{
 
-"id": "thirdwinner15"
-"name":"Stephane Robert"
+"id": "thirdwinner15",
+"name":"Stephane Robert",
 "children":[{
 
 "id": "secowinner28",
@@ -1475,8 +1475,8 @@
 
 },{
 
-"id": "thirdlooser16"
-"name":"Martin Klizan"
+"id": "thirdlooser16",
+"name":"Martin Klizan",
 "children":[{
 
 "id": "secowinner29",
