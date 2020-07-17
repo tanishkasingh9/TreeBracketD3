@@ -1,0 +1,364 @@
+<!--
+C:\Program Files (x86)>cd Google\Chrome\Application
+
+C:\Program Files (x86)\Google\Chrome\Application>chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+-->
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<style>
+			body{
+				font-family:"Calibri",sans-serif;
+				background-color: black;
+				background-size: 100% 100%;
+				position: relative;
+				z-index: -1
+			}
+			#wrap{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0; bottom: 0; 
+				left: 0; right: 0;
+				background-image: url('Australian_Open_Tennis_Stadium1.jpg');
+				background-size: 100% 100%;
+				z-index: 1; 
+			}
+			p{	font-family:"Calibri",sans-serif;
+				font-size: 12;
+				top: 2; bottom: 0; 
+				left: 0; right: 0;
+				position: relative;
+				z-index: 2;
+				opacity: 1; 
+			}
+			#svg{
+				top: 0; bottom: 0; 
+				left: 0; right: 0;
+				position: relative;
+				z-index: 2;
+				opacity: 1;
+			}
+
+			.node_circle {
+				  cursor: pointer;
+				  fill: #fff;
+				  stroke: steelblue;
+				  stroke-width: 1.5px;
+				}
+
+			.node_text {
+			  font: 8px sans-serif;
+			  color: black;
+			  
+			}
+
+			.link {
+			  fill: none;
+			  stroke: #ccc;
+			  stroke-width: 1.5px;
+			}
+
+
+
+		</style>
+		<script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
+		<script src="https://d3js.org/d3-hierarchy.v1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<div id = 'main'>
+			<div id='wrap'></div>
+			<center>
+			<font color="yellow" size="8">
+				<p>
+				Australian Open Tournament Proceedings (2010-2014)
+				</p>
+			</font>
+			<div id='svg'>
+			</div>
+		</center>
+		</div>
+
+		<script type="text/javascript">
+
+			d3.select('#wrap').style("opacity", 1).transition().ease("easeExp").duration(500).style("opacity", 0.4);
+
+			var canvas = d3.select('#svg').append('svg').attr("width", 1400).attr("height", 1503);
+
+			var canvaslayer = canvas.append("rect").transition().delay(1000).attr("x",0).attr("y",0).attr("height", 0).attr("width", 1400).attr("fill", "white").transition().duration(500).delay(1100).attr("height", 1500).attr("width", 1400).attr("fill", "white");
+
+			var sidebar = canvas.append("rect").transition().delay(1100).attr("x",-2).attr("y",-2).attr("height", 1503).attr("width", 0).attr("fill", "	#4D6FAC").transition().duration(500).delay(1600).attr("height", 1503).attr("width", 210).attr("fill", "#4D6FAC").attr('id','sidebar');
+
+			canvas.append('text').style('fill','white').transition().duration(50).delay(2200).attr("x",80).attr("y",40).text('YEAR').attr('font-size',20).attr('font-weight','bold');
+
+			var years = [2010, 2011, 2012, 2013, 2014];
+
+			function load_data(callback){
+				
+				var jsonx = new XMLHttpRequest();
+				jsonx.overrideMimeType("application/json");
+				jsonx.open('GET', 'https://raw.githubusercontent.com/tanishkasingh9/d3/master/tree.json', false);
+				jsonx.onreadystatechange = function () {
+          			if (jsonx.readyState == 4 && jsonx.status == "200") {
+          				callback(jsonx.responseText);
+          			}
+          		};
+          		jsonx.send(null);
+			}
+			
+			test = []
+			year_clicked = {2004:false, 2005:false, 2006:false, 2007:false, 2008:false, 2009:false, 2010:false, 2011:false, 2012:false, 2013:false, 2014:false}
+			dv = {2011:4,2010:3, 2012:2, 2013:1, 2014:0}
+			selected_year = 0
+			rootPosX = 0
+			rootPosY = 0
+			new_year = 0
+			
+			
+			isclicked = false
+			
+			
+			
+				load_data(function(response){
+					data = JSON.parse(response)
+					test = data	
+					
+					var year_slots = canvas.selectAll('g').data(years.reverse()).enter().append('g').attr('class', function (d){
+						return 'year'+d;
+						});
+
+					canvas.append('text').style('fill','#4D6FAC').transition().duration(50).duration(50).delay(2200).attr("x",1240).attr("y",40).text('BRACKET TREE').attr('font-size',20).attr('font-weight','bold');
+
+					var year_rect = year_slots.append('rect').on("mouseover", function(d) { if (year_clicked[d]==false){
+						d3.select(this).attr("class",d).attr('fill', '#2C5197')};}).on("mouseleave", function(d) { if (year_clicked[d]==false){ d3.select(this).attr('fill', "#4D6FAC")};}).on("click", function (d){ function_display(d)}).attr('width', 0).attr('height',60).attr('x',0).attr('y', function (d, i = 0){ return i*60+80;}).transition().duration(499).delay(1600).attr('width', 208).attr('height','60').attr('x',0).attr('y', function (d, i = 0){ return i*60+80;}).attr('fill', "#4D6FAC").attr('pointer-events', 'all').attr('cursor','pointer');
+
+					year_slots.each(function (d,i){
+						slotno = d3.select(this);
+						var year_text  = slotno.append('text').style('fill','white').attr('pointer-events', 'none').attr("dx", 85).attr("dy", i*60+ 115).transition().duration(300).delay(2200).text(function (d) { return d; });});						
+					
+					function returnchild(d, data){
+						var h = 1450, w = 1300;
+						//console.log(data)
+						//console.log(yr_data[0].children[0].children)
+						const bracketroot = d3.hierarchy(data[0], function(d){
+							//console.log(d)
+							return d.children;
+						});
+						bracketroot.x = w-15;
+						bracketroot.y = h/2;
+						rootPosX = bracketroot.x
+						rootPosY = bracketroot.y
+
+						return bracketroot;
+					}
+					
+					function function_display(d){
+						if (selected_year!=0){
+							year_clicked[selected_year] = false
+							d3.select('g.year'+selected_year+'>rect').attr('fill',	'#4D6FAC' );
+						d3.selectAll('g.tree_year'+selected_year).remove();
+						}
+						new_year = d
+						year_clicked[d] = true
+						
+						d3.select('g.year'+d+'>rect').attr('fill',	'#FF4500' );
+						
+						var tup = [];
+						var year = d;
+						var h = 1400, w = 1000;
+						n = 2
+						initx = 1200
+						inity = 60
+						dep = 0
+						xcor = initx
+						ycor = 1500/2
+						changeLimx = 120
+						changeLimy = 700
+						count =0
+						flag = true
+						klose_flag = true
+			
+						selected_year = new_year
+						
+						i = dv[new_year]
+						console.log(test[i][0][parseInt(d)]);
+						var root = returnchild(year, test[i][0][parseInt(d)]);
+						let xpluslim = 1130;
+						let xminuslim = 300;
+						let ypluslim = 700;
+						let yminuslim = 0;
+						var treeLay = d3.tree();
+						treeLay(root);
+						//console.log(root)
+						
+						root.each(function(d){
+
+							if (d.depth > dep)
+							{	count = 1
+								inity = inity - 7
+								ycor =(count*h+60)/(Math.pow(2,d.depth)+1)
+								xcor= d.parent.x - changeLimx
+								dep = d.depth
+								count = count+1
+								flag = false
+							}
+
+							else{
+								if (count==0){
+									ycor = h/2
+									count = count +1
+								}
+								else{
+								if (flag==false){
+								ycor = (count*h+60)/(Math.pow(2,d.depth)+1)
+								count += 1
+								flag = true
+							}
+								else{
+								ycor = (count*h+60)/(Math.pow(2,d.depth)+1)
+								flag = false
+								count = count+1	
+								}
+							}
+
+							
+						}
+							//console.log(d)
+							d.x = xcor
+							d.y = ycor
+
+							if (d.x > xminuslim)
+							{ 
+								xminuslim = d.x;
+							}
+							if (d.x < xpluslim)
+							{ 
+								xpluslim = d.x;
+							}
+
+							if (d.y > yminuslim)
+							{ 
+								yminuslim = d.y;
+							}
+							if (d.y < ypluslim)
+							{ 
+								ypluslim = d.y;
+							}
+						});
+						
+
+						var year_node = canvas.append('g').attr("transform", "translate(0,10)").attr("class","tree_year"+d);
+
+						//var treedat = treeefy(tup);
+						
+						
+						//console.log( d3.linkHorizontal())
+						var pathlink = year_node
+								.append("g")
+								.attr("class", "link");
+						console.log(root.links())
+
+						pathlink.selectAll('path')
+							.data(root.links())
+							.enter()
+							.append("path")
+							.attr("stroke", function (da,i){if(i%2==0){
+								return "#00b300"}
+							else{
+								return "#e60000"
+							}})
+							.attr("stroke-width", 2)
+							
+							//.join('path')
+							.attr("d", function(da,i){
+								//console.log(da)
+								//console.log("hiiiiii");
+								//console.log(da.source.x)
+								//console.log(da.source.x)
+								val = "m" + da.source.x + "," + da.source.y + "H" + (3*da.source.x+4*da.target.x)/7+ "V" + da.target.y + "H" + (da.target.x);
+								return val
+								/*
+								var diagonal = d3.svg.diagonal()
+											.source({x:da.source.x, y:da.source.y})
+											.target({x:da.target.x, y:da.target.y});
+								return diagonal;
+								//return d3.linkHorizontal().x(d=>da.dy).y(d=>da.dx)
+								//console.log(d3.linkHorizontal());
+								//return 0
+								*/
+							});
+						
+						var nodes = year_node
+							.append("g")
+							.attr("class","node")
+							.attr("fill", "none")
+							.attr("stroke", "#555")
+							.attr("stroke-opacity", 0.4)
+							.attr("stroke-width", 1.5);
+
+						// nodes.selectAll("g.node")
+						// 		.data(root.descendants())
+						// 		.enter()
+						// 		.append('circle')
+						// 		.attr('cx', function(dn,i) {return dn.x;})
+						// 		.attr('cy', function(dn,i) {return dn.y;})
+						// 		.attr('r', 4);
+
+						// //console.log(nodes)
+						// nodes.append("circle")
+						// 	.attr("class",".node_circle");
+						
+						nodes.selectAll("g.node")
+								.data(root.descendants())
+								.enter()
+								.append('text')
+								.attr('font-family','sans-serif')
+								.attr('font-size',function(dn,i) {if(dn.x==360){return "8px";}
+									else if(dn.x==1200){return "12px";}
+									else{
+										return "9px"
+									}})
+								.attr('fill','black')
+								.attr('x', function(dn,i) {return dn.x;})
+								.attr('y', function(dn,i) {return dn.y;})
+								.attr('dx', function(dn,i) {if(dn.x==360){return -85;}
+									else if(dn.x==1200){return 5;}
+									else{
+										return -60
+									}})
+								.attr('dy', function(dn,i) {if(dn.x==360){return 2;}
+									else if(dn.x==1200){return 2;}
+									else{
+										return -6
+									}})
+								.text(function(dk){ return dk.data.name;})
+						// nodes.enter().append("text")
+						// 	.attr("class", ".node_text")
+						// 	.text(function(dk){ return dk.name;})
+						// 	.attr("x", function(df){ console.log(df.x);
+						// 		return df.x;})
+						// 	.attr("y", function(df){ return df.y;})
+							//.attr("dy", "0.31em")
+							//.attr("dx", d => d.children ? -6 : 6)
+							
+							//.attr("text-anchor", "end")
+							//.clone(true).lower()
+							//.attr("stroke", "white");
+
+						
+
+						return 0;
+						}
+					})	
+					
+				
+			
+
+			
+
+			
+		</script>
+	</body>
+</html>
